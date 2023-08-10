@@ -27,3 +27,16 @@ body {
     top: 10px;
     right: 10px;
 }
+
+@media (max-width:548px) {
+    #leftBtn {
+margin-left: -50px;
+    }
+    #rightBtn {
+        margin-right: -50px;
+    }
+    #closeBtn {
+        margin-top: -50px;
+        margin-right: -50px;
+    }
+}
